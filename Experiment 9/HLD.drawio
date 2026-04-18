@@ -1,0 +1,184 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.3.0 Chrome/140.0.7339.249 Electron/38.7.2 Safari/537.36" version="29.3.0">
+  <diagram name="Page-1" id="IYInawVeMGM1rWuu0ss1">
+    <mxGraphModel dx="1455" dy="2074" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="hld-title" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=#FFFFFF;align=center;verticalAlign=middle;rounded=0;fontSize=20;fontStyle=1;fontColor=#000000;" value="TICKET BOOKING SYSTEM - HIGH LEVEL DESIGN" vertex="1">
+          <mxGeometry height="40" width="600" x="383" y="-30" as="geometry" />
+        </mxCell>
+        <mxCell id="n-mgspe5zVpaZVuCbiQK-3" edge="1" parent="1" source="n-mgspe5zVpaZVuCbiQK-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="n-mgspe5zVpaZVuCbiQK-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n-mgspe5zVpaZVuCbiQK-1" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="Actor" vertex="1">
+          <mxGeometry height="60" width="30" x="160" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="n-mgspe5zVpaZVuCbiQK-6" edge="1" parent="1" source="n-mgspe5zVpaZVuCbiQK-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="n-mgspe5zVpaZVuCbiQK-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n-mgspe5zVpaZVuCbiQK-16" edge="1" parent="1" source="n-mgspe5zVpaZVuCbiQK-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="n-mgspe5zVpaZVuCbiQK-14">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="319" y="474" />
+              <mxPoint x="320" y="474" />
+              <mxPoint x="320" y="570" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="n-mgspe5zVpaZVuCbiQK-21" edge="1" parent="1" source="n-mgspe5zVpaZVuCbiQK-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="n-mgspe5zVpaZVuCbiQK-20">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="320" y="857" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="n-mgspe5zVpaZVuCbiQK-2" parent="1" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#E7157B;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.endpoint;" value="" vertex="1">
+          <mxGeometry height="78" width="78" x="280" y="331" as="geometry" />
+        </mxCell>
+        <mxCell id="api-gateway-label" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=11;fontStyle=1;" value="API Gateway&lt;br&gt;• Load Balancing&lt;br&gt;• Authentication&lt;br&gt;• Rate Limiting" vertex="1">
+          <mxGeometry height="60" width="120" x="259" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="n-mgspe5zVpaZVuCbiQK-7" edge="1" parent="1" source="n-mgspe5zVpaZVuCbiQK-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="n-mgspe5zVpaZVuCbiQK-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n-mgspe5zVpaZVuCbiQK-4" parent="1" style="image;html=1;sketch=0;aspect=fixed;align=center;fontSize=10;image=img/lib/mscae/User_Resource.svg;verticalLabelPosition=bottom;verticalAlign=top;fontColor=#FFFFFF;fontStyle=1;" value="User Service&lt;br&gt;&lt;br&gt;• Register / Login&lt;br&gt;• Issues JWT Token&lt;div&gt;&lt;br/&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="50" x="340" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="n-mgspe5zVpaZVuCbiQK-5" parent="1" style="outlineConnect=0;html=1;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;shape=mxgraph.aws3.mysql_db_instance;fillColor=#2E73B8;gradientColor=none;fontColor=#FFFFFF;fontStyle=0;fontSize=10;" value="&lt;p&gt;&lt;br&gt;&lt;/p&gt;" vertex="1">
+          <mxGeometry height="80" width="70" x="530" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="n-mgspe5zVpaZVuCbiQK-66" edge="1" parent="1" source="n-mgspe5zVpaZVuCbiQK-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="n-mgspe5zVpaZVuCbiQK-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n-mgspe5zVpaZVuCbiQK-8" parent="1" style="html=1;whiteSpace=wrap;strokeColor=none;fillColor=#0079D6;labelPosition=center;verticalLabelPosition=middle;verticalAlign=top;align=center;fontSize=12;outlineConnect=0;spacingTop=-6;fontColor=#FFFFFF;sketch=0;shape=mxgraph.sitemap.search;" value="Search" vertex="1">
+          <mxGeometry height="50" width="92" x="470" y="331" as="geometry" />
+        </mxCell>
+        <mxCell id="n-mgspe5zVpaZVuCbiQK-9" edge="1" parent="1" source="n-mgspe5zVpaZVuCbiQK-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" target="n-mgspe5zVpaZVuCbiQK-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n-mgspe5zVpaZVuCbiQK-11" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=11;fontStyle=1;" value="Search Service&lt;br&gt;(Eventual Consistency)" vertex="1">
+          <mxGeometry height="40" width="120" x="455" y="381" as="geometry" />
+        </mxCell>
+        <mxCell id="n-mgspe5zVpaZVuCbiQK-12" parent="1" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;strokeColor=#ffffff;fillColor=#232F3E;dashed=0;verticalLabelPosition=middle;verticalAlign=bottom;align=center;html=1;whiteSpace=wrap;fontSize=10;fontStyle=1;spacing=3;shape=mxgraph.aws4.productIcon;prIcon=mxgraph.aws4.elasticsearch_service;" value="Amazon Elasticsearch Service" vertex="1">
+          <mxGeometry height="110" width="70" x="690" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="n-mgspe5zVpaZVuCbiQK-52" edge="1" parent="1" source="n-mgspe5zVpaZVuCbiQK-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="n-mgspe5zVpaZVuCbiQK-51">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n-mgspe5zVpaZVuCbiQK-14" parent="1" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;fontColor=#4277BB;labelBackgroundColor=default;fontSize=12;spacingTop=3;image=img/lib/ibm/blockchain/event.svg;" value="" vertex="1">
+          <mxGeometry height="60" width="60" x="383" y="540" as="geometry" />
+        </mxCell>
+        <mxCell id="n-mgspe5zVpaZVuCbiQK-17" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=11;fontStyle=1;" value="Event Service&lt;br&gt;(High Availability)" vertex="1">
+          <mxGeometry height="40" width="110" x="358" y="610" as="geometry" />
+        </mxCell>
+        <mxCell id="n-mgspe5zVpaZVuCbiQK-29" edge="1" parent="1" source="n-mgspe5zVpaZVuCbiQK-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="n-mgspe5zVpaZVuCbiQK-28">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="449" y="950" />
+              <mxPoint x="731" y="950" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="n-mgspe5zVpaZVuCbiQK-57" edge="1" parent="1" source="n-mgspe5zVpaZVuCbiQK-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="n-mgspe5zVpaZVuCbiQK-54">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="449" y="730" />
+              <mxPoint x="605" y="730" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="n-mgspe5zVpaZVuCbiQK-83" edge="1" parent="1" source="n-mgspe5zVpaZVuCbiQK-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="n-mgspe5zVpaZVuCbiQK-43">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="449" y="820" />
+              <mxPoint x="804" y="820" />
+              <mxPoint x="804" y="845" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="n-mgspe5zVpaZVuCbiQK-20" parent="1" style="points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;fillColor=#FF6A00;strokeColor=none;shape=mxgraph.alibaba_cloud.ecs_elastic_compute_service;" value="" vertex="1">
+          <mxGeometry height="54.7" width="58.68" x="420" y="830" as="geometry" />
+        </mxCell>
+        <mxCell id="n-mgspe5zVpaZVuCbiQK-22" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=11;fontStyle=1;" value="Booking Service&lt;br&gt;(Strong Consistency)&lt;br&gt;Uses Distributed Lock" vertex="1">
+          <mxGeometry height="60" width="140" x="395" y="884.7" as="geometry" />
+        </mxCell>
+        <mxCell id="n-mgspe5zVpaZVuCbiQK-32" connectable="0" parent="1" style="group" value="" vertex="1">
+          <mxGeometry height="120" width="78" x="573.55" y="1120" as="geometry" />
+        </mxCell>
+        <mxCell id="n-mgspe5zVpaZVuCbiQK-25" parent="n-mgspe5zVpaZVuCbiQK-32" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#DD344C;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.payment_cryptography;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" value="" vertex="1">
+          <mxGeometry height="78" width="78" as="geometry" />
+        </mxCell>
+        <mxCell id="n-mgspe5zVpaZVuCbiQK-27" parent="n-mgspe5zVpaZVuCbiQK-32" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" value="Payment Service&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="9" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="n-mgspe5zVpaZVuCbiQK-49" edge="1" parent="1" source="n-mgspe5zVpaZVuCbiQK-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="n-mgspe5zVpaZVuCbiQK-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n-mgspe5zVpaZVuCbiQK-43" parent="1" style="outlineConnect=0;html=1;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;shape=mxgraph.aws3.mysql_db_instance;fillColor=#2E73B8;gradientColor=none;fontColor=#FFFFFF;fontStyle=0;fontSize=10;" value="&lt;div&gt;Booking DB&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="70" x="1130" y="804.7" as="geometry" />
+        </mxCell>
+        <mxCell id="n-mgspe5zVpaZVuCbiQK-46" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Users DB" vertex="1">
+          <mxGeometry height="30" width="60" x="540" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="n-mgspe5zVpaZVuCbiQK-58" edge="1" parent="1" source="n-mgspe5zVpaZVuCbiQK-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="n-mgspe5zVpaZVuCbiQK-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n-mgspe5zVpaZVuCbiQK-51" parent="1" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/database_server.svg;" value="" vertex="1">
+          <mxGeometry height="55" width="45.1" x="590" y="542.5" as="geometry" />
+        </mxCell>
+        <mxCell id="n-mgspe5zVpaZVuCbiQK-54" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Events DB" vertex="1">
+          <mxGeometry height="30" width="60" x="575.1" y="600" as="geometry" />
+        </mxCell>
+        <mxCell id="n-mgspe5zVpaZVuCbiQK-60" parent="1" style="html=1;whiteSpace=wrap;strokeColor=none;fillColor=#0079D6;labelPosition=center;verticalLabelPosition=middle;verticalAlign=top;align=center;fontSize=12;outlineConnect=0;spacingTop=-6;fontColor=#FFFFFF;sketch=0;shape=mxgraph.sitemap.payment;" value="Payment" vertex="1">
+          <mxGeometry height="70" width="120" x="850" y="1120" as="geometry" />
+        </mxCell>
+        <mxCell id="n-mgspe5zVpaZVuCbiQK-61" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="External Payment Gateway" vertex="1">
+          <mxGeometry height="30" width="60" x="870" y="1210" as="geometry" />
+        </mxCell>
+        <mxCell id="n-mgspe5zVpaZVuCbiQK-63" edge="1" parent="1" source="n-mgspe5zVpaZVuCbiQK-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="n-mgspe5zVpaZVuCbiQK-60">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n-mgspe5zVpaZVuCbiQK-68" connectable="0" parent="1" style="group" value="" vertex="1">
+          <mxGeometry height="81" width="83.38" x="910" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="n-mgspe5zVpaZVuCbiQK-38" parent="n-mgspe5zVpaZVuCbiQK-68" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#7AA116;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.connector;" value="" vertex="1">
+          <mxGeometry height="31" width="83.38" as="geometry" />
+        </mxCell>
+        <mxCell id="n-mgspe5zVpaZVuCbiQK-41" parent="n-mgspe5zVpaZVuCbiQK-68" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=11;fontStyle=1;" value="CDC Pipeline&lt;br&gt;(Sync Events to Search)" vertex="1">
+          <mxGeometry height="40" width="120" x="-20" y="51" as="geometry" />
+        </mxCell>
+        <mxCell id="n-mgspe5zVpaZVuCbiQK-77" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=11;fontStyle=1;" value="Distributed Lock&lt;br&gt;(Prevents Double Booking)&lt;br&gt;TTL: 10 mins" vertex="1">
+          <mxGeometry height="50" width="140" x="542" y="910" as="geometry" />
+        </mxCell>
+        <mxCell id="n-mgspe5zVpaZVuCbiQK-79" edge="1" parent="1" source="n-mgspe5zVpaZVuCbiQK-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" target="n-mgspe5zVpaZVuCbiQK-25">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="450" y="1159" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="n-mgspe5zVpaZVuCbiQK-82" connectable="0" parent="1" style="group" value="" vertex="1">
+          <mxGeometry height="92.09000000000003" width="82.70000000000005" x="690" y="990" as="geometry" />
+        </mxCell>
+        <mxCell id="n-mgspe5zVpaZVuCbiQK-28" parent="n-mgspe5zVpaZVuCbiQK-82" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/Cache_Redis_Product.svg;" value="" vertex="1">
+          <mxGeometry height="69.47" width="82.7" as="geometry" />
+        </mxCell>
+        <mxCell id="n-mgspe5zVpaZVuCbiQK-30" parent="n-mgspe5zVpaZVuCbiQK-82" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Redis" vertex="1">
+          <mxGeometry height="30" width="60" x="11.350000000000023" y="62.09000000000003" as="geometry" />
+        </mxCell>
+        <mxCell id="fr-section" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=#666666;fillColor=#f5f5f5;align=left;verticalAlign=top;rounded=0;fontSize=14;fontStyle=1;fontColor=#333333;" value="&lt;b&gt;1. FUNCTIONAL REQUIREMENTS&lt;/b&gt;&lt;br&gt;&lt;br&gt;• &lt;b&gt;Search Functionality:&lt;/b&gt; Users can discover events using filters (Event Title, City/Location, Date)&lt;br&gt;&lt;br&gt;• &lt;b&gt;Event Information Display:&lt;/b&gt; Users can view comprehensive event details (Seats available vs. occupied, Description, Metadata - cast, duration, language, ratings)&lt;br&gt;&lt;br&gt;• &lt;b&gt;Booking Execution:&lt;/b&gt; Users can select a seat and complete a transaction to book a ticket" vertex="1">
+          <mxGeometry height="200" width="500" x="50" y="1300" as="geometry" />
+        </mxCell>
+        <mxCell id="nfr-section" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=#666666;fillColor=#f5f5f5;align=left;verticalAlign=top;rounded=0;fontSize=14;fontStyle=1;fontColor=#333333;" value="&lt;b&gt;2. NON-FUNCTIONAL REQUIREMENTS&lt;/b&gt;&lt;br&gt;&lt;br&gt;• &lt;b&gt;Target Scale:&lt;/b&gt; Support 100 Million Daily Active Users (DAU)&lt;br&gt;&lt;br&gt;• &lt;b&gt;High Availability:&lt;/b&gt; Search/View operations prioritize being always online. Better to show slightly older data than error pages (Eventual Consistency)&lt;br&gt;&lt;br&gt;• &lt;b&gt;High Consistency:&lt;/b&gt; Booking operations must be highly consistent. No two users can book the same seat simultaneously (Strong Consistency)" vertex="1">
+          <mxGeometry height="180" width="500" x="580" y="1300" as="geometry" />
+        </mxCell>
+        <mxCell id="api-section" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=#666666;fillColor=#f5f5f5;align=left;verticalAlign=top;rounded=0;fontSize=13;fontStyle=1;fontColor=#333333;" value="&lt;b&gt;3. API DESIGN&lt;/b&gt;&lt;br&gt;&lt;br&gt;&lt;b&gt;User Service:&lt;/b&gt;&lt;br&gt;POST /api/v1/auth/register&lt;br&gt;POST /api/v1/auth/login&lt;br&gt;GET /api/v1/users/profile&lt;br&gt;&lt;br&gt;&lt;b&gt;Search Service:&lt;/b&gt;&lt;br&gt;GET /api/v1/search?q={query}&amp;location={location}&amp;date={date}&lt;br&gt;&lt;br&gt;&lt;b&gt;Event Service:&lt;/b&gt;&lt;br&gt;GET /api/v1/events/{eventId}&lt;br&gt;GET /api/v1/events?location={location}&amp;date={date}&amp;page={page}&lt;br&gt;&lt;br&gt;&lt;b&gt;Booking Service:&lt;/b&gt;&lt;br&gt;POST /api/v1/bookings (Create booking + lock seat)&lt;br&gt;POST /api/v1/bookings/{bookingId}/confirm&lt;br&gt;GET /api/v1/bookings/my&lt;br&gt;&lt;br&gt;&lt;b&gt;Payment Service:&lt;/b&gt;&lt;br&gt;POST /api/v1/payments&lt;br&gt;POST /api/v1/payments/webhook" vertex="1">
+          <mxGeometry height="380" width="520" x="50" y="1510" as="geometry" />
+        </mxCell>
+        <mxCell id="entities-section" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=#666666;fillColor=#f5f5f5;align=left;verticalAlign=top;rounded=0;fontSize=13;fontStyle=1;fontColor=#333333;" value="&lt;b&gt;4. CORE ENTITIES&lt;/b&gt;&lt;br&gt;&lt;br&gt;&lt;b&gt;User&lt;/b&gt;&lt;br&gt;- id, name, email, password_hash, phone, created_at&lt;br&gt;&lt;br&gt;&lt;b&gt;Event&lt;/b&gt;&lt;br&gt;- id, title, description, location, date, total_seats, available_seats, metadata (cast, duration, language, rating), created_at&lt;br&gt;&lt;br&gt;&lt;b&gt;Seat&lt;/b&gt;&lt;br&gt;- id, event_id, seat_number, row, section, status (AVAILABLE, LOCKED, BOOKED), price&lt;br&gt;&lt;br&gt;&lt;b&gt;Booking&lt;/b&gt;&lt;br&gt;- id, user_id, event_id, seat_id, status (PENDING, CONFIRMED, FAILED, CANCELLED), total_amount, created_at, confirmed_at&lt;br&gt;&lt;br&gt;&lt;b&gt;Payment&lt;/b&gt;&lt;br&gt;- id, booking_id, amount, status (PENDING, SUCCESS, FAILED), payment_method, transaction_id, created_at" vertex="1">
+          <mxGeometry height="380" width="560" x="600" y="1510" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
