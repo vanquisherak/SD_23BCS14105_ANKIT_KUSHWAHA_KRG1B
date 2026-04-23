@@ -1,0 +1,288 @@
+:root {
+  --bg: #f2efe5;
+  --bg-2: #f9f7f2;
+  --text: #142022;
+  --muted: #5b6667;
+  --brand: #0f766e;
+  --brand-2: #115e59;
+  --danger: #9f1239;
+  --success: #166534;
+  --card: #ffffffcc;
+  --stroke: #d0d8d8;
+  --shadow: 0 20px 40px rgba(17, 24, 39, 0.1);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Manrope', sans-serif;
+  color: var(--text);
+  background:
+    radial-gradient(circle at 10% 20%, #e6fbef 0, transparent 40%),
+    radial-gradient(circle at 80% 10%, #ffe8d6 0, transparent 35%),
+    linear-gradient(180deg, var(--bg), var(--bg-2));
+  min-height: 100vh;
+}
+
+.page {
+  width: min(1120px, 92vw);
+  margin: 0 auto;
+  padding: 2.5rem 0 3.5rem;
+  animation: fadeIn 600ms ease;
+}
+
+.hero {
+  background: linear-gradient(130deg, #143c3b, #1f5b59 40%, #0f766e);
+  color: #f6fffd;
+  border-radius: 24px;
+  padding: 2rem;
+  box-shadow: var(--shadow);
+}
+
+.kicker {
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  letter-spacing: 0.12em;
+  margin: 0;
+  opacity: 0.8;
+}
+
+.hero h1 {
+  margin: 0.35rem 0;
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: clamp(1.8rem, 3.6vw, 2.8rem);
+}
+
+.hero p {
+  margin: 0;
+  max-width: 680px;
+}
+
+.metrics {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1.25rem;
+}
+
+.metrics div {
+  background: rgba(255, 255, 255, 0.16);
+  padding: 0.85rem 1rem;
+  border-radius: 14px;
+  min-width: 130px;
+}
+
+.metrics span {
+  display: block;
+  font-size: 1.45rem;
+  font-weight: 700;
+}
+
+.metrics p {
+  margin-top: 0.15rem;
+  font-size: 0.86rem;
+}
+
+.grid {
+  margin-top: 1.2rem;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.card,
+.events,
+.status-wrap {
+  background: var(--card);
+  border: 1px solid var(--stroke);
+  backdrop-filter: blur(5px);
+  border-radius: 20px;
+  box-shadow: var(--shadow);
+}
+
+.card {
+  padding: 1.2rem;
+}
+
+.card h2,
+.events h2 {
+  margin: 0 0 0.8rem;
+  font-family: 'Space Grotesk', sans-serif;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+}
+
+label {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+
+input,
+button {
+  border-radius: 10px;
+  font: inherit;
+}
+
+input {
+  width: 100%;
+  border: 1px solid #c4cece;
+  padding: 0.58rem 0.72rem;
+  background: #ffffff;
+}
+
+button {
+  border: none;
+  padding: 0.6rem 0.88rem;
+  cursor: pointer;
+  background: var(--brand);
+  color: white;
+  font-weight: 600;
+  transition: transform 180ms ease, background-color 180ms ease;
+}
+
+button:hover {
+  transform: translateY(-1px);
+  background: var(--brand-2);
+}
+
+button:disabled {
+  cursor: not-allowed;
+  opacity: 0.45;
+}
+
+.status-wrap {
+  margin-top: 1rem;
+  padding: 0.85rem 1rem;
+}
+
+.status {
+  margin: 0;
+  color: var(--muted);
+}
+
+.status.error {
+  color: var(--danger);
+}
+
+.status.success {
+  color: var(--success);
+}
+
+.events {
+  margin-top: 1rem;
+  padding: 1.2rem;
+}
+
+.events-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.event-list {
+  margin-top: 1rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 0.8rem;
+}
+
+.event-card {
+  border: 1px solid #d5dddd;
+  border-radius: 16px;
+  padding: 0.9rem;
+  background: #fff;
+  animation: riseIn 360ms ease;
+}
+
+.event-card p {
+  margin: 0.25rem 0;
+  font-size: 0.92rem;
+}
+
+.event-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0.7rem;
+}
+
+.event-top h3 {
+  margin: 0;
+  font-size: 1rem;
+}
+
+.badge {
+  border-radius: 999px;
+  padding: 0.2rem 0.58rem;
+  font-size: 0.75rem;
+  font-weight: 700;
+}
+
+.badge.live {
+  color: #0b5f45;
+  background: #d6fae8;
+}
+
+.badge.upcoming {
+  color: #9a4f00;
+  background: #ffe8cc;
+}
+
+.badge.ended {
+  color: #4b5563;
+  background: #e5e7eb;
+}
+
+.sku {
+  color: var(--muted);
+}
+
+.purchase {
+  margin-top: 0.7rem;
+}
+
+.empty {
+  color: var(--muted);
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes riseIn {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media (max-width: 900px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+
+  .metrics {
+    flex-direction: column;
+  }
+}
